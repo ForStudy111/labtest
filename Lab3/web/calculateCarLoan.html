@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car Loan Calculation</title>
+    </head>
+    <body>
+        <h2>Perform Car Loan Calculation</h2>
+        <form action="processCalculateCarLoan.jsp" method="get">
+            <fieldset>
+                <legend>Loan Calculation</legend>
+                <label for="amount">Loan Amount *</label>
+                <input type="text" id="amount" name="loanAmount" placeholder="Amount">
+                <br><br>
+                <label for="period">Period</label>
+                <select name="loanPeriod" id="period">
+                    <option value="3">3 years</option>
+                    <option value="4">4 years</option>
+                    <option value="5">5 years</option>
+                    <option value="7">7 years</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </fieldset>
+        </form>
+        <footer>&copy; 2026-Syaffiq</footer>
+    </body>
+</html>
